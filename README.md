@@ -1,36 +1,82 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# My Task Manager
 
-First, run the development server:
+## Description
+
+My Task Manager is a task management application built with Next.js, React, and Tailwind CSS. The application allows users to create, complete, delete, filter, and save tasks using localStorage so they remain after refreshing the browser.
+
+---
+
+## Features
+
+- Add new tasks
+- Mark tasks as complete or active
+- Delete individual tasks
+- Filter tasks by All, Active, or Done
+- View live task statistics
+- Clear completed tasks
+- Save tasks with localStorage
+
+---
+
+## Technologies Used
+
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-GITHUB-USERNAME/my-task-manager.git
+```
+
+Install the required packages:
+
+```bash
+npm install
+```
+
+Run the application:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Design Decisions
 
-To learn more about Next.js, take a look at the following resources:
+I created a dark dashboard layout with blue accent colors and rounded cards to give the application a modern appearance. The design is different from the workshop example while keeping the interface simple and easy to use.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## AI Usage Log
 
-## Deploy on Vercel
+### AI Tool Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ChatGPT (OpenAI)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### How AI Was Used
+
+- Helped explain React and Next.js concepts.
+- Assisted with debugging JavaScript and React errors.
+- Suggested improvements for component organization.
+- Helped write comments explaining React concepts.
+- Reviewed the project against the assignment rubric.
+
+### Verification
+
+I reviewed, tested, and understood the code before submitting the project. I verified that all required features function correctly.
