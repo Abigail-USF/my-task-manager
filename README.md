@@ -2,11 +2,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 # My Task Manager
 
-## Description
+## Project Description
 
-My Task Manager is a task management application built with Next.js, React, and Tailwind CSS. The application allows users to create, complete, delete, filter, and save tasks using localStorage so they remain after refreshing the browser.
-
----
+My Task Manager is a task management web application built with Next.js, React, and Tailwind CSS. The application allows users to create, organize, complete, and delete tasks while saving data with localStorage so tasks remain available after refreshing the browser.
 
 ## Features
 
@@ -16,9 +14,7 @@ My Task Manager is a task management application built with Next.js, React, and 
 - Filter tasks by All, Active, or Done
 - View live task statistics
 - Clear completed tasks
-- Save tasks with localStorage
-
----
+- Save tasks using localStorage
 
 ## Technologies Used
 
@@ -27,56 +23,43 @@ My Task Manager is a task management application built with Next.js, React, and 
 - JavaScript
 - Tailwind CSS
 
----
+## How to Run the Project
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/my-task-manager.git
-```
-
-Install the required packages:
+1. Clone or download the repository.
+2. Open the project in Visual Studio Code.
+3. Install the required dependencies:
 
 ```bash
 npm install
 ```
 
-Run the application:
+4. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Then open:
-
-```
-http://localhost:3000
-```
-
----
+5. Open `http://localhost:3000` in your browser.
 
 ## Design Decisions
 
-I created a dark dashboard layout with blue accent colors and rounded cards to give the application a modern appearance. The design is different from the workshop example while keeping the interface simple and easy to use.
+I designed the application with a clean dashboard layout using dark colors, blue accents, and rounded cards to create a modern interface. The layout was designed to be easy to navigate while remaining visually different from the workshop example.
 
----
+## What I Learned
 
-## AI Usage Log
+This project strengthened my understanding of React state management, component-based development, and event handling in Next.js. I also gained experience using localStorage to persist data, organizing reusable components, debugging application logic, and building a responsive user interface with Tailwind CSS.
 
-### AI Tool Used
+## AI Usage (Approved by Professor)
 
+**AI Tool Used**
 - ChatGPT (OpenAI)
 
-### How AI Was Used
+**How AI Was Used**
+- Explained React and Next.js concepts
+- Assisted with debugging JavaScript and React code
+- Suggested improvements for component organization
+- Reviewed the project against the assignment requirements
 
-- Helped explain React and Next.js concepts.
-- Assisted with debugging JavaScript and React errors.
-- Suggested improvements for component organization.
-- Helped write comments explaining React concepts.
-- Reviewed the project against the assignment rubric.
+**Verification**
 
-### Verification
-
-I reviewed, tested, and understood the code before submitting the project. I verified that all required features function correctly.
+I reviewed and tested all AI-assisted code before submitting the project. I verified that each feature worked correctly and ensured I understood the implementation.
